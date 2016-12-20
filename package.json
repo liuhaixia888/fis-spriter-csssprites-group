@@ -1,6 +1,6 @@
 {
-  "name": "fis-spriter-csssprites-group",
-  "version": "0.3.21",
+  "name": "fis-spriter-csssprites-group-rename",
+  "version": "0.3.22",
   "description": "基于fis的csssprite，支持分组合并图片，@media处理，合并路径指定",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mudoo/fis-spriter-csssprites-group.git"
+    "url": "https://github.com/liuhaixia888/fis-spriter-csssprites-group-rename.git"
   },
   "dependencies": {
     "images": "3.0.0"
@@ -27,9 +27,9 @@
     "jpeg",
     "gif"
   ],
-  "author": "mudoo <mudoo@qq.com>",
+  "author": "liuhaixia888 <307317710@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mudoo/fis-spriter-csssprites-group/issues"
+    "url": "https://github.com/liuhaixia888/fis-spriter-csssprites-group-rename/issues"
   }
 }

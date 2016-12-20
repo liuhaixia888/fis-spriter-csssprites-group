@@ -134,12 +134,18 @@ Generator.prototype = {
     after: function (group, image, arr_selector, direct, scale, list) {
         var ext = '_' + direct + '.png';
         var size = image.size();
+
+        // scale => scale.toString().replace('.', '_')
+        // 解决CDN不支持.命名的问题
+        const scaleString = scale.toString().replace('.', '_');
+
+
         if (this.index) {
             ext = '_' + this.index + ext;
         }
 
         if (scale) {
-            ext = '_' + scale + ext;
+            ext = '_' + scaleString + ext;
         }
 
         ext = (group=='__default__' ? '' : '_'+group) + ext;
